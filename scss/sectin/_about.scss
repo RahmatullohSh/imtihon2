@@ -1,0 +1,43 @@
+.info_title{
+  padding: 85px;
+  color: #36536B;
+  font-size: 56px;
+}
+.vision{
+  display: flex;
+  padding: 56px 85px;
+}
+.vision h3{
+  font-size: 32px;
+  color: #36536B;
+  width: 255px;
+}
+.vision p{
+  width: 635px;
+  font-size: 15px;
+color: #6C8294;
+}
+.info_img{
+  background-image: url("../../img/Bitmap.png");
+  margin: auto;
+  width: 1440px;
+  height: 480px;
+}
+.stats{
+  display: flex;
+  justify-content: space-between;
+}
+.numbers{
+  margin-top: 100px;
+  width: 350px;
+}
+.numbers p{
+  padding: 16px 0;
+  opacity: 0.7;
+  color: #36536B;
+}
+.numbers h2{
+color:  #BA4270;
+font-size: 56px;
+
+}

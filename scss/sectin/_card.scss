@@ -1,0 +1,21 @@
+.card_menu{
+  display: flex;
+  justify-content: space-between;
+}
+.card{
+  text-align: center;
+  width: 350px;
+  
+}
+.card_img{
+  padding: 32px;
+}
+.email{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.email_text{
+  margin-top: 50px;
+  font-size: 48px;
+}

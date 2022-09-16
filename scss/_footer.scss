@@ -1,0 +1,28 @@
+footer {
+  background-color: #1b262f;
+  margin-top: 100px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__menu {
+  display: flex;
+  align-items: center;
+}
+.footer_logo {
+  padding: 31px 64px;
+}
+.footer_link {
+  color: white;
+}
+.icon {
+  display: flex;
+}
+.icon li {
+  padding: 10px;
+}
+.icon li :hover {
+  cursor: pointer;
+}

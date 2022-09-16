@@ -1,0 +1,31 @@
+.register{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input{
+  width: 445px;
+  padding: 20px;
+  border: none;
+  border-bottom: 2px solid black ;
+}
+
+.messenger{
+  width: 445px;
+  border: none;
+  border-bottom: 2px solid black ;
+}
+.checkbox{
+  margin-top: 25px;
+  width: 24px;
+  height: 24px;
+}
+label{
+  display: flex;
+  align-items: center;
+}
+label p{
+  margin-top: 25px;
+  margin-left: 26px;
+  width: 395px;
+}

@@ -1,0 +1,37 @@
+.company{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.company_text {
+  height: 472px;
+  width: 440px;
+  position: relative;
+  top: 100px;
+}
+.company_text h3 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.company_title {
+  color: white;
+  margin-bottom: 20px;
+}
+.company_button {
+  background: 
+  #1B262F;
+  border: 1px solid #fbfcfe;
+  border-radius: 24px;
+  padding: 15px 32px;
+}
+.company_button a{
+  color: #fbfcfe;
+}
+.company_button:hover{
+  background: white;
+
+}
+.company_button a:hover{
+  color:   #1B262F;
+}
