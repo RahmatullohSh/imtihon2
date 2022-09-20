@@ -19,3 +19,26 @@
   margin-top: 50px;
   font-size: 48px;
 }
+@media only screen and (max-width: 768px){
+  .card_menu{
+    margin-top: 100px;
+  }
+  .email{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .section__input{
+    margin-top: 40px;
+  }
+}
+@media only screen and (max-width: 375px){
+  .card_menu{
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .email_text{
+    margin-top: 50px;
+    font-size: 32px;
+  }
+}

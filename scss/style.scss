@@ -1,6 +1,7 @@
 @import './header';
 @import './main';
 @import './footer';
+@import './hamburger';
 
 *{
   margin: 0;
@@ -19,4 +20,20 @@ body{
   padding: 0 165px;
   
 
+}
+
+@media only screen and (max-width: 768px) {
+  .container{
+    margin: 0 auto;
+    width: 768px;
+    padding: 0 40px;
+  }
+}
+
+@media only screen and (max-width: 375px){
+  .container{
+    margin: 0 auto;
+    width: 375px;
+    padding: 0 24px;
+  }
 }

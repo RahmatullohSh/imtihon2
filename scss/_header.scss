@@ -29,3 +29,28 @@
 .header__button:hover {
   background: #da6d97;
 }
+
+@media only screen and (max-width: 768px){
+  .menu__itms {
+    padding: 0 20px;
+  }
+}
+@media only screen and (max-width: 375px){
+  .header{
+    margin-top: 40px;
+  }
+  .ml{
+    display: none;
+  }
+
+  .header__button{
+    margin-top: 16px;
+    width: 300px;
+  }
+  .header{
+    flex-wrap: wrap;
+  }
+  .menu__itms{
+   margin-bottom: 30px;
+  }
+}
